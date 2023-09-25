@@ -42,6 +42,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: docker push sarcophage345678909876543222/devops-tests
+        repository: sarcophage345678909876543222/devops-tests
         tag_with_ref: true
       
